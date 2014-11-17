@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  
+  #loads index action of finder controller
+  root 'finder#index'
+  
+  #set up route for Get to /alphabetized
+  get 'alphabetized' => 'finder#alphabetized'
+  #set up route for Get to /missing_email
+  get 'missing_email' => 'finder#missing_email'
   resources :customers
 
   

@@ -1,8 +1,6 @@
-<html>
+
 <h1>All Customers</h1>
-<body>
+
 <p><%= link_to 'New Customer', new_customer_path %> -
 <%= link_to 'Destroy', @customer, method: :delete, data: { confirm: 'Are you sure?' } %></p>
 <%= render @customers %>
-</body>
-</html>
