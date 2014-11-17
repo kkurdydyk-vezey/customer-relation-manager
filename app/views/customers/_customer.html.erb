@@ -1,0 +1,31 @@
+
+<table>
+    <thead>
+      <tr>
+        <td><%= link_to 'Edit', edit_customer_path(customer) %></td>
+      </tr>
+      <tr>
+        <th><%= customer.full_name %></th>
+        <th colspan="1"></th>
+      </tr>
+    </thead>
+  
+    <tbody>
+        <tr>
+          <td><%= image_tag customer.image, size: "160x180" %></td>
+        </tr>
+        <tr>
+          <td><div>Phone:</div> <%= customer.phone_number %></td>
+        </tr>
+        <tr>
+          <td><div>Email:</div> <%= customer.email_address %></td>
+        </tr>
+        <tr>
+          <td><div>Notes:</div> <%= customer.notes %></td>
+        </tr>
+  
+    </tbody>
+  
+  
+
+</table>

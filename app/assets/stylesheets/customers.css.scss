@@ -1,0 +1,31 @@
+// Place all the styles related to the customers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+    background-color: #000;
+}
+h1{
+    font-size: 36px;
+    
+}
+
+table {
+    border: 1px solid #000;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px #888;
+}
+
+table th{
+    font-size: 20px;
+    text-align: left;
+}
+table div{
+    font-weight: bold;
+}
+table td{
+    display: block;
+}
